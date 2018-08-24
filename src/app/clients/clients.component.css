@@ -1,0 +1,16 @@
+.clientPicture{
+  width: 70%;
+  max-width: 150px;
+  display: block;
+  margin-left: auto;
+}
+
+.ui-g{
+  background-color: pink;
+  margin: 2vw;
+  box-shadow: #888888;
+}
+
+.clientInfo{
+  font-size: 1.5vw;
+}

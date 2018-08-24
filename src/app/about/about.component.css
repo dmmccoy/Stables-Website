@@ -1,0 +1,30 @@
+.description{
+  color: #111;
+  font-family: Arial, Times, sans-serif;
+  font-size: 150%;
+  max-width: 60ch;
+  margin:auto;
+  padding: 30px;
+}
+.bird{
+  align-items: flex-end;
+}
+
+.leftcard{
+  width: 100%;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: pink;
+}
+
+.rightcard{
+  width: 100%;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img{
+ width: 100%;
+ max-width: 400px;
+}

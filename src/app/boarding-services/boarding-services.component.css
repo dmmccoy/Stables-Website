@@ -1,0 +1,23 @@
+.servicetab{
+  margin: 50px;
+  border-style: solid;
+}
+
+.boarding{
+  color: #111111;
+}
+.tabs{
+  color: yellow;
+}
+
+mat-tab:label{
+  color: #111;
+}
+
+.mat-tab-label{
+  background-color: black;
+}
+
+mat-tab-group{
+  background-color: pink;
+}
