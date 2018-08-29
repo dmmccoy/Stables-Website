@@ -1,9 +1,9 @@
-button{
-  width: 100%;
+.ui-g{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
 }
-span{
-  font-size: 1vw;
-}
+
 
 .title{
     color: #100;
@@ -17,8 +17,4 @@ span{
   width:30%;
   max-width: 75px;
   height: auto;
-}
-
-.navigation{
-  width: 100%;
 }
