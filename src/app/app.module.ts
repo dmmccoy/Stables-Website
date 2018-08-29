@@ -17,6 +17,9 @@ import {MatListModule} from '@angular/material/list';
 import {MatExpansionModule} from '@angular/material/expansion';
 import {MatButtonModule} from '@angular/material/button';
 
+// PrimeNG Components
+import {GalleriaModule} from 'primeng/galleria';
+
 import { AppRoutingModule } from './app-routing.module';
 import { AboutComponent } from './about/about.component';
 import { GalleryComponent } from './gallery/gallery.component';
@@ -51,7 +54,8 @@ import { BoardingServicesComponent } from './boarding-services/boarding-services
     MatCardModule,
     MatListModule,
     MatExpansionModule,
-    MatButtonModule
+    MatButtonModule,
+    GalleriaModule
   ],
   providers: [],
   bootstrap: [AppComponent]
