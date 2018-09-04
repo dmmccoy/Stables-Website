@@ -20,20 +20,24 @@
 
 
 .title{
-    color: #100;
     font-family: Arial, Times, sans-serif;
-    font-size: 3vw;
+    font-size: 1vw;
     text-align: left;
 }
 
+.example-spacer {
+  flex: 1 1 auto;
+}
 
 .logo{
-  width:30%;
-  max-width: 75px;
+  width:40%;
+  max-width: 200px;
   height: auto;
 }
 
 .navigation{
-  display: flex;
+
+  position: fixed;
+  top: 0;
 
 }

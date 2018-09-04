@@ -1,66 +1,43 @@
-
-
-
-<div class="slideshow-container">
-
-<div class="mySlides fade">
-  <div class="numbertext">1 / 3</div>
-  <img src="src/images/rainbow.jpg" style="width:100%">
-  <div class="text">Stables</div>
+<div class="servicetab">
+  <mat-tab-group background-color="primary">
+    <mat-tab label="Outdoor">
+      <span>
+        <img src="src/images/ObstacleCourse.jpg" width="20%">
+      </span>
+      <span>
+        <img src="src/images/ObstacleCourse.jpg" width="20%">
+      </span>
+      <ul class="details">
+        <li>Information</li>
+        <li>About</li>
+        <li>The lay of the land</li>
+      </ul>
+    </mat-tab>
+    <mat-tab label="Indoor">
+      <span>
+        <img src="src/images/ObstacleCourse.jpg" width="20%">
+      </span>
+      <span>
+        <img src="src/images/ObstacleCourse.jpg" width="20%">
+      </span>
+      <ul class="Lodgings">
+        <li>Information</li>
+        <li>About</li>
+        <li>The horse stables</li>
+      </ul>
+    </mat-tab>
+    <mat-tab label="Grooming/Care">
+      <span>
+        <img src="src/images/ObstacleCourse.jpg" width="20%">
+      </span>
+      <span>
+        <img src="src/images/ObstacleCourse.jpg" width="20%">
+      </span>
+      <ul class="details">
+        <li>Information</li>
+        <li>About</li>
+        <li>The Wash room, tact room, grooming areas</li>
+      </ul>
+    </mat-tab>
+  </mat-tab-group>
 </div>
-
-<div class="mySlides fade">
-  <div class="numbertext">2 / 3</div>
-  <img src="src/images/people.jpg" style="width:100%">
-  <div class="text">Fields</div>
-</div>
-
-<div class="mySlides fade">
-  <div class="numbertext">3 / 3</div>
-  <img src="src/images/horse2.jpg" style="width:100%">
-  <div class="text">Horse Washing station</div>
-</div>
-<body>
-<a class="prev" (click)="plusSlides(-1)">&#10094;</a>
-<a class="next" (click)="plusSlides(1)">&#10095;</a>
-</body>
-</div>
-<br>
-
-<div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span>
-  <span class="dot" onclick="currentSlide(2)"></span>
-  <span class="dot" onclick="currentSlide(3)"></span>
-</div>
-
-
-
-<mat-accordion color="primary">
-  <mat-expansion-panel color="primary">
-    <mat-expansion-panel-header>
-      <mat-panel-title>
-        Stables
-      </mat-panel-title>
-    </mat-expansion-panel-header>
-    <p>Description of the stables, both inside and out sides, include pictures</p>
-
-  </mat-expansion-panel>
-  <mat-expansion-panel (opened)="panelOpenState = true"
-                       (closed)="panelOpenState = false">
-    <mat-expansion-panel-header>
-      <mat-panel-title>
-        Fields
-      </mat-panel-title>
-    </mat-expansion-panel-header>
-    <p>The fields, acres fencing, etc, throw in pictures</p>
-  </mat-expansion-panel>
-  <mat-expansion-panel (opened)="panelOpenState = true"
-                       (closed)="panelOpenState = false">
-    <mat-expansion-panel-header>
-      <mat-panel-title>
-        Horse washing station
-      </mat-panel-title>
-    </mat-expansion-panel-header>
-    <p>Wash da horses, more pictures</p>
-  </mat-expansion-panel>
-</mat-accordion>

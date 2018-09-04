@@ -1,7 +1,25 @@
+.page {
+  max-width: 1300px;
+  margin: auto;
+  background-color: white;
+}
+
 .header {
+  height:64px;
+  z-index:1;
+  position:relative;
+}
+
+.body {
+  /* base on height of toolbar header always being 64 */
+  top: 64px;
 
 }
 
 .footer {
-  
+  bottom: 0px;
+}
+
+.background {
+  background-color: lightgrey;
 }
