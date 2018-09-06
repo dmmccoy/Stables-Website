@@ -1,16 +1,16 @@
-.clientPicture{
-  width: 70%;
-  max-width: 150px;
-  display: block;
-  margin-left: auto;
+.client{
+  padding: 100px;
 }
 
-.ui-g{
-  background-color: pink;
-  margin: 2vw;
-  box-shadow: #888888;
+.clients{
+  color: grey;
 }
 
-.clientInfo{
-  font-size: 1.5vw;
+.description{
+  margin-left: 20vw;
+  margin-right: 20vw;
+}
+
+h1{
+  font-family: Tahoma, Geneva, sans-serif;
 }

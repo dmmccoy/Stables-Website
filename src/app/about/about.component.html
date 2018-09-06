@@ -1,12 +1,15 @@
-<p class="description" align="center" >
-    Example text: Place here what your this stables is about ()
-    Aka the goals for the team, have people enjoy the thrill of horse riding/
-    owning a horse, being economically friendly, etc.
-</p>
 
-<div align="center">
-  <img src="src/images/people.jpg">
-  <p>[The team]</p>
+<div class="group" align="center">
+  <h2>Automatic Slideshow</h2>
+  <p>Change image every 2 seconds:</p>
+
+
+  <p-galleria [images]="images" panelWidth="500" panelHeight="313" [showCaption]="false"></p-galleria>
+
+    <p class="description">
+      Example text: Talk about how friendly you guys are, the goal of
+      the stables, to let others experience the joy of horses, or whatever
+    </p>
 </div>
 
 <!-- creates grid to place two sets of people at a time, and their given
@@ -15,7 +18,7 @@
   <div class="ui-g-6">
     <mat-card color="primary" class="leftcard" >
       <mat-card-header>
-        <mat-card-title>Person and/or horse</mat-card-title>
+        <mat-card-title>Hardy</mat-card-title>
         <mat-card-subtitle>Job/position</mat-card-subtitle>
       </mat-card-header>
       <img src="src/images/people2.jpg">
@@ -30,10 +33,10 @@
   <div class="ui-g-6">
     <mat-card class="rightcard">
       <mat-card-header>
-        <mat-card-title>Person and/or horse</mat-card-title>
+        <mat-card-title>Robin</mat-card-title>
         <mat-card-subtitle>Job/position</mat-card-subtitle>
       </mat-card-header>
-      <img src="src/images/bird.jpg">
+      <img src="src/images/Robin.jpg">
       <mat-card-content>
         <p>
           List of relevant experience for housing horses, dealing with animals,

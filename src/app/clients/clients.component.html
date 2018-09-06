@@ -1,23 +1,45 @@
-<div class="ui-g">
-  <div class="ui-g-5">
-    <img class="clientPicture" src="src/images/client.jpg">
-  </div>
-  <div class="ui-g-7" >
-    <p class="clientInfo">Information about the client and the horse<p>
-  </div>
-  <mat-divider></mat-divider>
-  <div class="ui-g-5">
-    <img class="clientPicture" src="src/images/client2.jpg">
-  </div>
-  <div class="ui-g-7">
-    <p class="clientInfo">Information about the client and the horse<p>
-  </div>
-  <mat-divider></mat-divider>
-  <div class="ui-g-5">
-    <img class="clientPicture" src="src/images/client3.jpg">
-  </div>
-  <div class="ui-g-7">
-    <p class="clientInfo">Information about the client and the horse<p>
+
+<div class="cliens" align="center">
+  <div class="client">
+    <h1> Sara & Feather </h1>
+    <p-galleria [images]="images"
+                panelWidth="900"
+                panelHeight="500"
+                [showCaption]="false"
+                [showFilmstrip]="false"
+                [autoPlay]="false"></p-galleria>
+    <ul class="description">
+      <li>Info about </li>
+      <li>Boarder</li>
+    </ul>
   </div>
 
+  <hr>
+  <div class="client">
+    <h1> Lauren & Jett </h1>
+    <p-galleria [images]="images2"
+                panelWidth="900"
+                panelHeight="500"
+                [showCaption]="false"
+                [showFilmstrip]="false"
+                [autoPlay]="false"></p-galleria>
+    <ul class="description">
+      <li>Info about </li>
+      <li>Boarder</li>
+    </ul>
+  </div>
+  <hr>
+  <div class="client">
+    <h1> Lauren & Jett </h1>
+    <p-galleria [images]="images2"
+                panelWidth="900"
+                panelHeight="500"
+                [showCaption]="false"
+                [showFilmstrip]="false"
+                [autoPlay]="false"></p-galleria>
+    <ul class="description">
+      <li>Info about </li>
+      <li>Boarder</li>
+    </ul>
+  </div>
 </div>

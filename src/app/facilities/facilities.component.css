@@ -1,12 +1,16 @@
 .servicetab{
+  width: 100%;
+  max-width: 800px;
   margin: 50px;
   border-style: solid;
 }
 
-.boarding{
-  color: #111111;
-}
+.back{
 
+  background-size: cover;
+
+
+}
 
 mat-tab-group{
   background-color: #795548;
