@@ -1,13 +1,13 @@
 .servicetab{
   width: 100%;
   max-width: 800px;
-  margin: 50px;
+  margin: auto;
   border-style: solid;
 }
 
 .back{
-
-  background-size: cover;
+  height: 800px;
+  background-size: 100% 100%;
 
 
 }
