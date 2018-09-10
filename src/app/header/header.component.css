@@ -18,7 +18,9 @@
   }
 }
 
-
+.mat-tab-label-active {
+  color: #00ADEE !important;
+}
 .title{
     font-family: Arial, Times, sans-serif;
     font-size: 1vw;

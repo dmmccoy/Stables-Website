@@ -1,6 +1,25 @@
+/*Background of the page*/
+.back{
+  height: 800px;
+  background-size: 100% 100%;
+}
 
 
+.introduction {
+  width: 100%;
+  height: 500px;
+}
 
+h1 {
+  font-size: 10em;
+  color: #ffbd31;
+  margin: 0px;
+}
+
+h2 {
+  font-size: 5em;
+  color: #ffbd31;
+}
 
 
 .centerpiece{
@@ -46,7 +65,9 @@
 }
 
 .linkDescription{
+  margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
   font-size:2vw;
+  color: #ffbd31;
 }

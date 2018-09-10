@@ -15,6 +15,11 @@ h1 {
   font-family: Tahoma, Geneva, sans-serif;
 }
 
+.ui-panel-images {
+  width: auto;
+  height: auto;
+}
+
 
 
 

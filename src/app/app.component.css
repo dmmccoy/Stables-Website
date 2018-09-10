@@ -7,7 +7,7 @@
 
 .header {
   height:64px;
-  z-index:5;
+  z-index:20;
   position:relative;
 }
 
@@ -15,6 +15,24 @@
   /* base on height of toolbar header always being 64 */
   top: 64px;
 
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
 }
 
 .footer {
