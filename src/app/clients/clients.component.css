@@ -2,13 +2,11 @@
   padding: 100px;
 }
 
-.clients {
-  color: grey;
-}
-
 .description {
   margin-left: 20vw;
   margin-right: 20vw;
+  padding-left: 20vw;
+  padding-right: 20vw;
 }
 
 h1 {
