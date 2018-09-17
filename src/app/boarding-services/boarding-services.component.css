@@ -11,3 +11,8 @@
   margin: 4px 2px;
   cursor: pointer;
 }
+
+.stance {
+  width: 100%;
+  max-width: 500px;
+}

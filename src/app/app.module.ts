@@ -16,6 +16,7 @@ import {MatCardModule} from '@angular/material/card';
 import {MatListModule} from '@angular/material/list';
 import {MatExpansionModule} from '@angular/material/expansion';
 import {MatButtonModule} from '@angular/material/button';
+import {MatIconModule} from '@angular/material/icon';
 
 // PrimeNG Components
 import {GalleriaModule} from 'primeng/galleria';
@@ -55,6 +56,7 @@ import { BoardingServicesComponent } from './boarding-services/boarding-services
     MatListModule,
     MatExpansionModule,
     MatButtonModule,
+    MatIconModule,
     GalleriaModule
   ],
   providers: [],

@@ -1,8 +1,4 @@
-.ui-g{
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-}
+
 
 @media all and (max-width: 800px){
   mat-toolbar{
@@ -23,8 +19,9 @@
 }
 .title{
     font-family: Arial, Times, sans-serif;
-    font-size: 1vw;
+    font-size: 100%;
     text-align: left;
+    margin-left: 1vw;
 }
 
 .example-spacer {
@@ -32,14 +29,18 @@
 }
 
 .logo{
-  width:40%;
-  max-width: 200px;
+  width:100%;
+  max-width: 40px;
   height: auto;
 }
 
-.navigation{
 
+.navigation{
   position: fixed;
   top: 0;
+}
 
+.number {
+  color: white;
+  font-size: 1vw;
 }
