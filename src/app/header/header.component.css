@@ -30,17 +30,21 @@
 
 .logo{
   width:100%;
-  max-width: 40px;
+  max-width: 30px;
   height: auto;
 }
 
 
+.icons{
+  display: block;
+}
 .navigation{
   position: fixed;
   top: 0;
 }
 
-.number {
+.info {
   color: white;
   font-size: 1vw;
+  margin: auto;
 }
