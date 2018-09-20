@@ -39,10 +39,10 @@ body {
     max-width: 100%;
 }
 
-.column img:hover {
+/*.column img:hover {
   opacity: 0.7;
   transform: scale(1.05);
-}
+}*/
 
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {

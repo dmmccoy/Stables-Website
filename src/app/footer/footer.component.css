@@ -1,6 +1,19 @@
 .foot{
+  padding-top: 20px;
   background-color: #455a64;
+}
 
+.logo {
+  width: 64px;
+}
+
+.footColumn{
+  color: white;
+}
+
+.separator {
+  width: 50%;
+  border-color: $accent;
 }
 
 

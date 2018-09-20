@@ -18,22 +18,21 @@
   padding: 10px;
 }
 
-.leftcard {
-  width: 100%;
-  max-width: 400px;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: pink;
+
+
+
+
+.image-cropper {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
 }
 
-.rightcard  {
-  width: 100%;
-  max-width: 400px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-img {
- width: 100%;
- max-width: 400px;
+.rounded {
+    display: inline;
+    margin: 0 auto;
+    height: 100%;
+    width: auto;
 }

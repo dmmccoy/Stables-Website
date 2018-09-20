@@ -29,3 +29,15 @@
  width: 100%;
  max-width: 400px;
 }
+
+.requirements{
+  background-color: #d3c09f;
+  width: 30vw;
+  border: solid;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.description{
+  font-size: 1em;
+}
