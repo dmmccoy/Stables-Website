@@ -18,5 +18,5 @@
 }
 
 mat-tab-group{
-  background-color: #644f45;
+  background-color: var(--brown);
 }
