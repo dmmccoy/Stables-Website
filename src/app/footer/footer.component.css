@@ -3,19 +3,16 @@
   background-color: #455a64;
 }
 
-.logo {
-  width: 64px;
-}
+
 
 .footColumn{
   color: white;
 }
 
 .separator {
-  width: 50%;
+  width: 100%;
   border-color: $accent;
 }
-
 
 
 
@@ -29,4 +26,5 @@
   max-width: 20px;
   max-height: 20px;
   height: 100%;
+  padding-top: 5px;
 }

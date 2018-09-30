@@ -1,17 +1,3 @@
-.contact {
-
-  background-color: #e5e500;
-  border: none;
-  color: black;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-}
-
 .stance {
   width: 100%;
   max-width: 500px;
@@ -30,14 +16,22 @@
  max-width: 400px;
 }
 
+.separator {
+  width: 50%;
+  border-color: $accent;
+}
+
+
 .requirements{
   background-color: #d3c09f;
-  width: 30vw;
+  width: 20vw;
+  height: 15vh;
   border: solid;
+
   margin-left: auto;
   margin-right: auto;
 }
 
 .description{
-  font-size: 1em;
+  font-size: .75em;
 }
