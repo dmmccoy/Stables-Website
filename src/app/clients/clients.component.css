@@ -12,3 +12,7 @@
 h1 {
   font-family: Tahoma, Geneva, sans-serif;
 }
+
+.subtitle {
+  margin: 0 0 2em 0;
+}

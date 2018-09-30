@@ -6,28 +6,17 @@
   margin:auto;
   padding: 30px;
 }
-.bird {
-  align-items: flex-end;
-}
-
-.group  {
-  margin-top: 3vh;
-  border-style: solid;
-  margin-left:  15vw;
-  margin-right: 15vw;
-  padding: 10px;
-}
 
 
 
 
 
 .image-cropper {
-    width: 100px;
-    height: 100px;
+    width: 300px;
+    height: 300px;
     position: relative;
     overflow: hidden;
-    border-radius: 50%;
+    border-radius: 100%;
 }
 
 .rounded {
