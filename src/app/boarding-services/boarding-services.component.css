@@ -18,9 +18,11 @@
 
 .separator {
   width: 50%;
-  border-color: $accent;
 }
 
+.card{
+  background-color: #455a64;
+}
 
 .requirements{
   background-color: #d3c09f;

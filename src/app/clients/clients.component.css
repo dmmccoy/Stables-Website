@@ -16,3 +16,8 @@ h1 {
 .subtitle {
   margin: 0 0 2em 0;
 }
+
+img{
+  max-width: auto;
+  max-height: 100%;
+}
