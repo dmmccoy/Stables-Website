@@ -21,3 +21,14 @@ img{
   max-width: auto;
   max-height: 100%;
 }
+
+.card {
+    background-color: #455a64;
+}
+
+.card-title {
+  color: white;
+}
+.card-text {
+  color: white;
+}
