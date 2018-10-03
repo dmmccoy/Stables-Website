@@ -6,7 +6,8 @@
 
   $primary: mat-palette($mat-blue-gray,700);
   $accent: mat-palette($mat-yellow,700);
+  $content: mat-palette($mat-brown,600);
 
-  $theme: mat-dark-theme($primary, $accent);
+  $theme: mat-dark-theme($primary, $accent,$content);
 
 @include angular-material-theme($theme);

@@ -1,5 +1,5 @@
 .back{
-  background-image: url("/src/images/washstall.jpg");
+  background-image: url("/assets/images/washstall.jpg");
   height: 800px;
   background-size: 100% 100%;
   overflow: auto;
@@ -15,8 +15,9 @@
 
 .details {
   color: #f7f7f7;
+  padding-top: 1em;
 }
 
 mat-tab-group{
-  background-color: #644f45;
+  background-color: var(--content);
 }
