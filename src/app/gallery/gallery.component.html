@@ -1,81 +1,223 @@
 <body>
 
 
-<img height="100" width="80" id="1" data-toggle="modal" data-target="#myModal" src="assets/images/MckalaSavanah.jpg" alt='Text dollar code part one.' />
-  <!-- Button trigger modal -->
-  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-    Launch demo modal
-  </button>
 
-  <!-- Modal -->
-  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <img width="600" height="400" src="assets/images/MckalaSavanah.jpg">
-      </div>
-    </div>
-  </div>
+<!-- first set of images -->
 
   <h1 align="center"> Boardered Horses</h1>
 
   <div class="row">
     <div class="column">
-      <img src="assets/images/MckalaSavanah.jpg">
-      <img src="assets/images/SaraFeather2.jpg">
-      <img src="assets/images/Feather.jpg">
-      <img src="assets/images/RobinJackson.jpg">
-      <img src="assets/images/CharlieMalinda.jpg">
-    </div>
-    <div class="column">
-      <img src="assets/images/BlackJackHeather.jpg">
-  		<img src="assets/images/Feather2.jpg">
-    	<img src="assets/images/SaraFeather3.jpg">
-      <img src="assets/images/SaraFeather2.jpg">
-      <img src="assets/images/Ollie.jpg">
+      <img src="assets/images/MckalaSavanah.jpg" (click)="openModal(); currentSlide(1)">
+
+      <img src="assets/images/SaraFeather2.jpg" (click)="openModal(); currentSlide(5)">
+
+      <img src="assets/images/Feather.jpg" (click)="openModal(); currentSlide(9)">
+
+      <img src="assets/images/RobinJackson.jpg" (click)="openModal(); currentSlide(13)">
+
+      <img src="assets/images/CharlieMalinda.jpg" (click)="openModal(); currentSlide(17)">
 
     </div>
     <div class="column">
-  		<img src="assets/images/Aries.jpg">
-      <img src="assets/images/BlackJackGuiness.jpg">
-      <img src="assets/images/AriesMalinda.jpg">
-      <img src="assets/images/Charlie.jpg">
-      <img src="assets/images/ChipDejaVu.jpg">
+
+      <img src="assets/images/BlackJackHeather.jpg" (click)="openModal(); currentSlide(2)">
+
+  		<img src="assets/images/Feather2.jpg" (click)="openModal(); currentSlide(6)">
+
+    	<img src="assets/images/SaraFeather3.jpg" (click)="openModal(); currentSlide(10)">
+
+      <img src="assets/images/SaraFeather2.jpg" (click)="openModal(); currentSlide(14)">
+
+      <img src="assets/images/Ollie.jpg" (click)="openModal(); currentSlide(18)">
+
+
     </div>
     <div class="column">
-  		<img src="assets/images/BriannaChip.jpg">
-  		<img src="assets/images/horse2.jpg">
-    	<img src="assets/images/BlackJackHeather.jpg">
-      <img src="assets/images/OllieCourtney.jpg">
-      <img src="assets/images/Feather3.jpg">
+
+  		<img src="assets/images/Aries.jpg" (click)="openModal(); currentSlide(3)">
+
+      <img src="assets/images/BlackJackGuiness.jpg" (click)="openModal(); currentSlide(7)">
+
+      <img src="assets/images/AriesMalinda.jpg" (click)="openModal(); currentSlide(11)">
+
+      <img src="assets/images/Charlie.jpg" (click)="openModal(); currentSlide(15)">
+
+      <img src="assets/images/ChipDejaVu.jpg" (click)="openModal(); currentSlide(19)">
+
+    </div>
+    <div class="column">
+
+  		<img src="assets/images/BriannaChip.jpg" (click)="openModal(); currentSlide(4)">
+
+  		<img src="assets/images/horse2.jpg" (click)="openModal(); currentSlide(8)">
+
+    	<img src="assets/images/BlackJackHeather.jpg" (click)="openModal(); currentSlide(12)">
+      <img src="assets/images/OllieCourtney.jpg" (click)="openModal(); currentSlide(16)">
+      <img src="assets/images/Feather3.jpg" (click)="openModal(); currentSlide(20)">
     </div>
   </div>
+
+<!-- lightbox gallery for first set of images -->
+
+
+<div id="myModal" class="modal">
+  <span class="close cursor" (click)="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <img src="assets/images/MckalaSavanah.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <img src="assets/images/BlackJackHeather.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <img src="assets/images/Aries.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <img src="assets/images/BriannaChip.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <img src="assets/images/SaraFeather2.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <img src="assets/images/Feather2.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <img src="assets/images/BlackJackGuiness.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <img src="assets/images/horse2.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <img src="assets/images/Feather.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <img src="assets/images/SaraFeather3.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <img src="assets/images/AriesMalinda.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <img src="assets/images/BlackJackHeather.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <img src="assets/images/RobinJackson.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <img src="assets/images/SaraFeather2.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <img src="assets/images/Charlie.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <img src="assets/images/OllieCourtney.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <img src="assets/images/CharlieMalinda.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <img src="assets/images/Ollie.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <img src="assets/images/ChipDejaVu.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <img src="assets/images/Feather3.jpg" style="width:100%">
+    </div>
+    <a class="prev" (click)="plusSlides(-1)">&#10094;</a>
+    <a class="next" (click)="plusSlides(1)">&#10095;</a>
+
+
+
+
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
   <hr>
 
 
+<!-- second gallery -->
+
   <h1 align="center"> Personal Horses</h1>
 
   <div class="row">
     <div class="column">
-      <img src="assets/images/RobinAries.jpg">
-      <img src="assets/images/DejaVu2.jpg">
-      <img src="assets/images/Dallaih.jpg">
+      <a href="assets/images/RobinAries.jpg">
+        <img src="assets/images/RobinAries.jpg">
+      </a>
+      <a href="assets/images/DejaVu2.jpg">
+        <img src="assets/images/DejaVu2.jpg">
+      </a>
+      <a href="assets/images/Dallaih.jpg">
+        <img src="assets/images/Dallaih.jpg">
+      </a>
     </div>
     <div class="column">
-      <img src="assets/images/Evie Gertrude Dahlia.jpg">
-  		<img src="assets/images/Robin-Dahlia.jpg">
-      <img src="assets/images/RobinDalliah.jpg">
+      <a href="assets/images/Evie Gertrude Dahlia.jpg">
+        <img src="assets/images/Evie Gertrude Dahlia.jpg">
+      </a>
+      <a href="assets/images/Robin-Dahlia.jpg">
+    		<img src="assets/images/Robin-Dahlia.jpg">
+      </a>
+      <a href="assets/images/RobinDalliah.jpg">
+        <img src="assets/images/RobinDalliah.jpg">
+      </a>
     </div>
     <div class="column">
-  		<img src="assets/images/HardyMainEvent.jpg">
-    	<img src="assets/images/RobinJackson.jpg">
-      <img src="assets/images/RobinDejaVu.jpg">
+      <a href="assets/images/HardyMainEvent.jpg">
+    		<img src="assets/images/HardyMainEvent.jpg">
+      </a>
+      <a href="assets/images/RobinJackson.jpg">
+      	<img src="assets/images/RobinJackson.jpg">
+      </a>
+      <a href="assets/images/RobinDejaVu.jpg">
+        <img src="assets/images/RobinDejaVu.jpg">
+      </a>
     </div>
     <div class="column">
-      <img src="assets/images/RobinJackson.jpg">
-  		<img src="assets/images/HardyDejaVu.jpg">
-      <img src="assets/images/SaraRobinRandomHorse.jpg">
+      <a href="assets/images/RobinJackson.jpg">
+        <img src="assets/images/RobinJackson.jpg">
+      </a>
+      <a href="assets/imagesHardyDejaVu.jpg">
+    		<img src="assets/images/HardyDejaVu.jpg">
+      </a>
+      <a href="assets/images/SaraRobinRandomHorse.jpg">
+        <img src="assets/images/SaraRobinRandomHorse.jpg">
+      </a>
     </div>
   </div>
 </body>
